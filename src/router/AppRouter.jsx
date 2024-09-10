@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Quiz from "../pages/Quiz";
 import ErrorPage from "../pages/ErrorPage";
 import Result from "../pages/Result";
+
 function AppRouter() {
   return (
     <>

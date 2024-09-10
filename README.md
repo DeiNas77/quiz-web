@@ -1,10 +1,10 @@
 # Quiz App 
 - Quiero realizar una navegación cuando se le marque las diferentes respuestas a este para así hacer el juego mas didactico.
 
-- plantear un estado centralizado con Redux el cual pueda acceder a realizar las diferentes tareas sea como eleigir
+- plantear un estado centralizado con Redux el cual pueda acceder a realizar las diferentes tareas sea como elegir
 la opcion correcta o sumar puntos del score de la respuesta correcta.
 
-- Utilizar Reac-Router-Dom para moverse entre navegadores y así poder realizar las siguientes preguntas hasta llegar a la pagina donde este el resultado
+- Utilizar React-Router-Dom para moverse entre navegadores y así poder realizar las siguientes preguntas hasta llegar a la pagina donde este el resultado
 
 ## Revisiones o cosas a consultar 
 
@@ -41,3 +41,24 @@ esto se podria realizar con un manejador de eventos el cual accione eso
 ## Resolver el problema
 
 - Una solucion al tema del id es recorrer el objeto del initial state como por partes [0,1,2,3,4] el cual me permitira irle sumando el id progresivamente, a su vez que cada que se sume el id se le sume +1 al arreglo para así poder cambiar de pregunta y opciones de este mismo, mediante un evento que me permita cambiarlo  
+
+   (Realizado a medias)
+
+
+## Errores a Corregir
+
+- Resolver problemas de Id.
+
+
+### Cosas que se han realizado
+
+- Ya se ha realizado la creación de las paginas a utilizar (hasta el momento).
+- Se ha colocado el recorrido esperado para poder ver las paginas una por una mediante el indice (falta mejorar el uso del indice).
+- y ya se puede identificar el id puesto en las paginas (falta mejorar ciertos aspectos)
+
+
+
+### Cosas faltantes
+- Darle estilo.
+- Darle mejor funcionalidad.
+- Darle mas uso al Redux.
